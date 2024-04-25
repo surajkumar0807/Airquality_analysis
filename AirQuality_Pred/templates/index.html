@@ -1,0 +1,24 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict CO Concentration</title>
+</head>
+<body>
+    <h1>Predict CO Concentration</h1>
+    <form action="/predict" method="post">
+        <label for="nmhc">PT08.S2(NMHC):</label><br>
+        <input type="text" id="nmhc" name="PT08.S2(NMHC)" required><br>
+        <label for="nox">PT08.S3(NOx):</label><br>
+        <input type="text" id="nox" name="PT08.S3(NOx)" required><br>
+        <label for="no2">PT08.S4(NO2):</label><br>
+        <input type="text" id="no2" name="PT08.S4(NO2)" required><br>
+        <label for="o3">PT08.S5(O3):</label><br>
+        <input type="text" id="o3" name="PT08.S5(O3)" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
