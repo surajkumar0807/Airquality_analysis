@@ -13,5 +13,5 @@ This project aims to analyze and predict air quality using machine learning tech
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/air-quality-analysis.git
+   git clone [https://github.com/yourusername/air-quality-analysis.git](https://github.com/suryaSingh2307/Airquality_analysis.git)
 
